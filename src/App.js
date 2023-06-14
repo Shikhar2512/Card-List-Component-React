@@ -17,7 +17,7 @@ const App = () => {
   }[dependencies])*/
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch(/*API to fetch Data Stream*/)
       .then((response) => {
         if (!response.ok) {
           throw Error(response.statusText)
