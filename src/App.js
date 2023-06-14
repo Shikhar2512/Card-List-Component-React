@@ -74,7 +74,7 @@ const App = () => {
 
 //   }
 //   componentDidMount() {
-//     fetch('https://jsonplaceholder.typicode.com/users')
+//     fetch('/* API to fetch data stream */')
 //       .then(function (response) {
 //         if (!response.ok) {
 //           throw Error(response.statusText)
